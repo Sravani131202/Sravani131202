@@ -1,0 +1,25 @@
+import java.util.*;
+class Sumandproduct
+{
+	public static void main(String[] args) 
+	{
+		int n,r,s=0,m=1;
+		Scanner sc=new Scanner(System.in);
+		n=sc.nextInt();
+		while(n>0)
+		{
+			r=n%10;
+			s=s+r;
+			m=m*r;
+			n=n/10;
+		}
+		System.out.println(m-s);
+		
+	}
+}
+
+Output
+234
+15
+     4421
+      21
