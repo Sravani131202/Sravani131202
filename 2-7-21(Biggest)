@@ -1,0 +1,50 @@
+import java.util.*;
+class Mybiggest
+{
+	public static void main(String args[])
+	{ 
+	int a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p;
+	Scanner Sc=new Scanner(System.in);
+	a=Sc.nextInt();
+	b=Sc.nextInt();
+	c=Sc.nextInt();
+	d=Sc.nextInt();
+	e=Sc.nextInt();
+	f=Sc.nextInt();
+	g=Sc.nextInt();
+	h=Sc.nextInt();
+	i=Sc.nextInt();
+	j=Sc.nextInt();
+	k=Sc.nextInt();
+	l=Sc.nextInt();
+	m=Sc.nextInt();
+	n=Sc.nextInt();
+	o=Sc.nextInt();
+	p=Sc.nextInt();
+	int b1=(int)Math.max(Math.max(a,b),Math.max(c,d));
+	int b2=(int)Math.max(Math.max(e,f),Math.max(g,h));
+	int b3=(int)Math.max(Math.max(i,j),Math.max(k,l));
+	int b4=(int)Math.max(Math.max(m,n),Math.max(o,p));
+	int b5=(int)Math.max(Math.max(b1,b2),Math.max(b3,b4));
+	
+	System.out.print("biggest"+b5);
+	}
+}
+Output
+1
+2
+34
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+156
+biggest156
