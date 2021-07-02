@@ -1,0 +1,37 @@
+import java.util.*;
+class Prime
+ {
+	public static void main(String[] args)
+	 {
+		int a,b,i,j,n,count=0,num=0;
+		System.out.println("enter the starting range and ending range ");
+		Scanner s=new Scanner(System.in);
+		a= s.nextInt();
+		b=s.nextInt();
+		for(i=a;i<=b;i++)
+		{
+			n=i;
+			count=0;
+			for(j=2;j<n;j++)
+			{
+				if(n%j==0)
+				{ 
+				count++;
+				break;
+				}
+			}
+			if(count==0)
+			{
+					num++;	
+			}
+			
+		}
+	System.out.println(num);		
+	}
+}
+Output
+enter the starting range and ending range
+1
+10
+5
+
