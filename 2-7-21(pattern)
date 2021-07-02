@@ -1,0 +1,28 @@
+import java.util.*;
+class pattern
+{
+	public static void main(String args[])
+	{
+		int num,i,j;
+		System.out.print("enter how many rows to printed");
+		Scanner s=new Scanner(System.in);
+		num=s.nextInt();
+		for(i=1;i<=num;i++)
+		{
+			for(j=1;j<=i;j++)
+			{
+				System.out.print(j+" ");
+			}
+			System.out.println();
+		}
+	}
+}
+Output
+enter how many rows to printed 6
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+1 2 3 4 5 6
+
