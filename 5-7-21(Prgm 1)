@@ -1,0 +1,33 @@
+import java.util.*;
+class min
+{
+	public static void main(string args[])
+	{
+		scanner sc=new scanner(system.in);
+		int size,i;
+		system.out.print("enter array size");
+		size=sc.nextint();
+		int ar[];
+		ar=new int[size];
+		system.out.print("enter array elements");
+		for(i=0;i<size;i++)
+		{
+			ar[i]=sc.nextint();
+		}
+		int min=ar[0];
+		for(i=1;i<size;i++)
+		{
+			if(ar[i]<min)
+			min=ar[i];
+		}
+		system.out.print("minimum element is" + min);
+	}
+}
+Output
+Enter array size5
+Enter array elements1
+12
+13
+14
+56
+minimum element is1
