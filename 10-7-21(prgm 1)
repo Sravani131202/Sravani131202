@@ -1,0 +1,21 @@
+import java.util.*;
+class Reverse
+{
+	public static void main(String args[])
+	{
+		int i,n;
+		String Str;
+		System.out.println("Enter a string");
+		Scanner sc=new Scanner(System.in);
+		Str=sc.next();
+		 n=Str.length();
+		for(i=n-1;i>=0;i--)
+	{
+		System.out.print(Str.charAt(i));
+	}
+}
+}
+Output
+Enter a string
+helloworld
+dlrowolleh
