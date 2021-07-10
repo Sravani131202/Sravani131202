@@ -1,0 +1,28 @@
+import java.util.*;
+class Evenodd
+{
+	public static void main(String args[])
+	{
+		int i,n,sumeven=0,sumodd=0;
+		String st;
+		System.out.print("Enter a string");
+		Scanner sc=new Scanner(System.in);
+		st=sc.next();
+		n=st.length();
+		char ch[]=st.toCharArray();
+		for(i=0;i<n;i++)
+		{
+			if(ch[i]%2==0)
+			{
+				sumeven=sumeven*10+(ch[i]-48);
+			}
+			else
+			sumodd=sumodd*10+(ch[i]-48);
+		}
+		System.out.print("even numbers are"+sumeven);
+		System.out.print("/n"+"odd numbers are"+sumodd);
+	}
+}
+Output
+Enter a string123456789
+even numbers are2468/nodd numbers are13579
