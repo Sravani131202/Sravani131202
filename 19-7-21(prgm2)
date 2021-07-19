@@ -1,0 +1,18 @@
+import java.util.*;
+class Maps
+{
+	public static void main(String args[])
+	{
+		HashMap<String,Integer>x=new HashMap<String,Integer>();
+		int n=3;
+		x.put("sak",5);
+		x.put("varun",7);
+		x.put("vijay",3);
+		System.out.println(x);
+		System.out.println(x.get("sak"));
+	}
+}
+Output
+{sak=5, varun=7, vijay=3}
+5
+
